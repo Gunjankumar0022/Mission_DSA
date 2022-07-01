@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
- int n,p,m,r;
+ int num,pos,mask,res;
  printf("Enter a Number\n Enter Position: ");
- scanf("%d %d",&n,&p);
- m = 1 << p;
- r = n | m;
- printf("Result:%d ",r);
+ scanf("%d %d",&num,&pos);
+ mask = 1 << pos;
+ res = num | mask;
+ printf("Result:%d ",res);
  return(0);
 }

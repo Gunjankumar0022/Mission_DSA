@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int n,p,m,r;
+    int num,pos,mask,res;
     printf("Enter Number\nEnter Position: ");
-    scanf("%d%d",&n,&p);
-    m = 1 << p;
-    r = n & m;
-    if(r=0)
+    scanf("%d%d",&num,&pos);
+    mask = 1 << pos;
+    res = num & mask;
+    if(res=0)
     {
         printf("0");
     }
