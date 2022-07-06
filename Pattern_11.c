@@ -14,19 +14,19 @@ int main()
     {
         for(j=5;j>=i;j--)
         {
-            printf("%d\t",j);
+            printf("%d ",j);
         }
         for(k=1;k<i;k++)
         {
-            printf("*\t");
+            printf("* ");
         }
         for(m=1;m<i;m++)
         {
-            printf("*\t");
+            printf("* ");
         }
         for(n=i;n<=5;n++)
         {
-            printf("%d\t",n);
+            printf("%d ",n);
         }
         printf("\n");
     }
