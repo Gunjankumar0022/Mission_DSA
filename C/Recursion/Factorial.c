@@ -10,7 +10,7 @@ int main()
     int num,fact;
     printf("Enter Number");
     scanf("%d",&num);
-    if(num < 0)
+    if(num <= 0)
     {
         printf("Error");
     }
