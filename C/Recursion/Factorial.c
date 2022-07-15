@@ -8,7 +8,7 @@ int factorial (int num)
 int main()
 {
     int num,fact;
-    printf("Enter Number");
+    printf("Enter Number :- ");
     scanf("%d",&num);
     if(num <= 0)
     {
@@ -16,8 +16,7 @@ int main()
     }
     else
     {
-        fact = factorial(num);
-        printf("%d",fact);
+        printf("Factorial of %d = %d",num,factorial(num));
     }
     return(0);
 }
